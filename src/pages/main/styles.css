@@ -1,0 +1,70 @@
+.prodList{
+    max-width: 725px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+.prodList article{
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.prodList article strong{
+
+}
+
+.prodList article p{
+    margin: 5px 0 15px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+
+.prodList article a{
+    color: #33BB33;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid #33BB33 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+}
+
+.prodList article a:hover{
+    background-color: #33BB33;
+    color: #fff;
+}
+
+.prodList .actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.prodList .actions button{
+    border: none;
+    background: #33BB33;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .2s;
+    cursor: pointer;
+    outline: none;
+}
+
+.prodList .actions button:hover{
+    opacity: .7;
+}
+
+.prodList .actions button[disabled]{
+    opacity: .5;
+}
